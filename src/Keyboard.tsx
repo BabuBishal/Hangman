@@ -13,7 +13,7 @@ export function Keyboard({activeLetters, inactiveLetters, addGuessedLetter, disa
     return(
         <div style={{
             display:'grid', 
-            gridTemplateColumns:'repeat(auto-fit, minmax(75px,1fr)',
+            gridTemplateColumns:'repeat(auto-fit, minmax(40px,1fr)',
             gap:'.5rem'
         }}>
             {KEYS.map(key => {

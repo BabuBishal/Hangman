@@ -65,7 +65,7 @@ function App() {
   return (
     <div
       style={{
-        maxWidth:'800px',
+        maxWidth:'500px',
         display:'flex',
         flexDirection:'column',
         gap:'2rem',
@@ -73,10 +73,11 @@ function App() {
         alignItems:'center'
       }}
     >
+      <div> <h1>Hangman</h1></div>
+       
       <div
         style={{
-          padding: '10px',
-          fontSize:'2rem',
+          fontSize:'1.5rem',
           textAlign:'center'
         }}
       >
